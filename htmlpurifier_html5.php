@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-require_once('HTMLPurifier.standalone.php');
+require_once 'HTMLPurifier.standalone.php';
 
 
 function load_htmlpurifier($allowed) {

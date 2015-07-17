@@ -1,6 +1,6 @@
 <?php
 
-require_once('htmlpurifier_html5.php');
+require_once 'htmlpurifier_html5.php';
 
 // EDIT: modify this to whatever you need.
 $allowed = array(

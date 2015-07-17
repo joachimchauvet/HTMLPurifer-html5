@@ -35,4 +35,5 @@ Contributions: Propose each change via issues, then fork, implement and send a p
 License
 ======================
 Apache v2. See the LICENSE file.
+
 HTMLPurifier: LGPLv2.1. See the LICENSE file.
