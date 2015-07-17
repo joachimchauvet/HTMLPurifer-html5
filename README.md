@@ -1,7 +1,7 @@
-php-htmlpurifier-html5
+HTMLPurifier-html5
 ======================
 
-Load HTMLPurifier with support for:
+Load standalone HTMLPurifier with support for:
 
 * HTML5
 * TinyMCE
@@ -13,24 +13,26 @@ How to use
 
 If you already have a GIT repo for your server, then:
 
-    git submodule add https://github.com/kennberg/php-htmlpurifier-html5 php-htmlpurifier-html5
+    git submodule add https://github.com/Masterjoa/HTMLPurifier-html5 HTMLPurifier-html5
     git submodule init
 
 Or, for installation inside your server directory:
 
-    git clone https://github.com/kennberg/php-htmlpurifier-html5
+    git clone https://github.com/Masterjoa/HTMLPurifier-html5
 
 Finally, view the example.php file to see how it works.
 
-Make sure you define LIB\_DIR so HTML purifier can be loaded. With default LIB\_DIR path is: ROOT/lib/third-party/htmlpurifier/. See example.php to how to set this up.
 
 More info
 ======================
 
 HTMLPurifier: http://htmlpurifier.org/
 
+php-htmlpurifier-html5: https://github.com/kennberg/php-htmlpurfier-html5
+
 Contributions: Propose each change via issues, then fork, implement and send a pull request.
 
 License
 ======================
 Apache v2. See the LICENSE file.
+HTMLPurifier: LGPLv2.1. See the LICENSE file.
