@@ -26,6 +26,13 @@ function load_htmlpurifier($allowed) {
     $config->set('CSS.AllowTricky', true);
     $config->set('Cache.SerializerPath', '/tmp');
 
+    // Allow wysihtml classes
+    $config->set('Attr.AllowedClasses', "font-size-smaller, font-size-larger, font-size-xx-large, font-size-x-large, font-size-large, font-size-medium, font-size-small, font-size-x-small, .font-size-xx-small{font-size:xx-small;}
+text-align-right, text-align-center, text-align-left, text-align-justify, wysiwyg-float-left, wysiwyg-float-right, wysiwyg-clear-right, wysiwyg-clear-left");
+
+    $config->set('AutoFormat.RemoveEmpty', true);
+    $config->set('AutoFormat.RemoveSpansWithoutAttributes', true);
+
     // Allow iframes from: YouTube.com, Vimeo.com
     // TODO: add other websites
     $config->set('HTML.SafeIframe', true);
