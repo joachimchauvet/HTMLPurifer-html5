@@ -1,0 +1,20 @@
+{
+    "name": "materjoa/htmlpurifier-html5",
+    "description": "Load standalone HTMLPurifier with support for HTML5, TinyMCE, YouTube, Video",
+    "homepage": "https://github.com/Masterjoa/HTMLPurifer-html5",
+    "license": "Apache v2",
+    "authors": [
+        {
+            "name": "Kennberg",
+            "homepage": "https://github.com/kennberg/php-htmlpurifier-html5"
+        },
+        {
+            "name": "Masterjoa",
+            "homepage": "https://github.com/Masterjoa/HTMLPurifer-html5"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "masterjoa/htmlpurifier-standalone": "*"
+    }
+}

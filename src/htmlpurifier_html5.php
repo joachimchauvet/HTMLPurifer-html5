@@ -2,7 +2,9 @@
 /**
  * Load HTMLPurifier with HTML5, TinyMCE, YouTube, Video support.
  *
- * Copyright 2014 Alex Kennberg (https://github.com/kennberg/php-htmlpurifier-html5)
+ * Copyright
+ * 2015 Joachim Chauveheid (https://github.com/Masterjoa/HTMLPurifer-html5)
+ * 2014 Alex Kennberg (https://github.com/kennberg/php-htmlpurifier-html5)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,8 +19,6 @@
  * limitations under the License.
  */
 
-require_once 'HTMLPurifier.standalone.php';
-
 
 function load_htmlpurifier($allowed) {
     $config = HTMLPurifier_Config::createDefault();
@@ -27,8 +27,7 @@ function load_htmlpurifier($allowed) {
     $config->set('Cache.SerializerPath', '/tmp');
 
     // Allow wysihtml classes
-//    $config->set('Attr.AllowedClasses', "font-size-smaller, font-size-larger, font-size-xx-large, font-size-x-large, font-size-large, font-size-medium, font-size-small, font-size-x-small, .font-size-xx-small{font-size:xx-small;}
-//text-align-right, text-align-center, text-align-left, text-align-justify, wysiwyg-float-left, wysiwyg-float-right, wysiwyg-clear-right, wysiwyg-clear-left");
+//    $config->set('Attr.AllowedClasses', "font-size-smaller, font-size-larger, font-size-xx-large, font-size-x-large, font-size-large, font-size-medium, font-size-small, font-size-x-small, .font-size-xx-small{font-size:xx-small;}, text-align-right, text-align-center, text-align-left, text-align-justify, wysiwyg-float-left, wysiwyg-float-right, wysiwyg-clear-right, wysiwyg-clear-left");
 
     $config->set('AutoFormat.RemoveEmpty', true);
     $config->set('AutoFormat.RemoveSpansWithoutAttributes', true);

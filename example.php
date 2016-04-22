@@ -1,6 +1,6 @@
 <?php
 
-require_once 'htmlpurifier_html5.php';
+require_once 'src/htmlpurifier_html5.php';
 
 // EDIT: modify this to whatever you need.
 $allowed = array(
@@ -19,7 +19,7 @@ $allowed = array(
   'hr'
 );
 
-$purifier = load_htmlpurifier($allowed);
+$purifier = htmlpurifier_config_html5($allowed);
 
 $content = <<<EOT
 <h1>HTMLPurifier HTML5 Demo</h1>

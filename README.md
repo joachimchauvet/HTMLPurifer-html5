@@ -8,8 +8,16 @@ Load standalone HTMLPurifier with support for:
 * YouTube
 * Video
 
-How to use
+Installation
 ======================
+
+## Composer
+
+If you're using Composer to manage dependencies, you can use
+
+    $ composer require "masterjoa/htmlpurifier-html5": "dev-master"
+
+## GIT
 
 If you already have a GIT repo for your server, then:
 
@@ -20,11 +28,12 @@ Or, for installation inside your server directory:
 
     git clone https://github.com/Masterjoa/HTMLPurifier-html5
 
-Finally, view the example.php file to see how it works.
+Note: Make sure HTMLPurifier si installed if you do not install using composer.
 
 
 More info
 ======================
+View the example.php file to see how it works.
 
 HTMLPurifier: http://htmlpurifier.org/
 
@@ -35,5 +44,3 @@ Contributions: Propose each change via issues, then fork, implement and send a p
 License
 ======================
 Apache v2. See the LICENSE file.
-
-HTMLPurifier: LGPLv2.1. See the LICENSE file.
