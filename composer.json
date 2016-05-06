@@ -1,5 +1,5 @@
 {
-    "name": "materjoa/htmlpurifier-html5",
+    "name": "masterjoa/htmlpurifier-html5",
     "description": "Load standalone HTMLPurifier with support for HTML5, TinyMCE, YouTube, Video",
     "homepage": "https://github.com/Masterjoa/HTMLPurifer-html5",
     "license": "Apache v2",
